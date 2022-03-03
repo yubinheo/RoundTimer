@@ -1,0 +1,24 @@
+.time-picker, .values {
+    background-color: #2962ff;
+    color: #ffffff;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 2rem;
+    font-family: monospace; /* 고정폭 */
+}
+#ongoing-status, #completed-status, .values, #btn-group-2, #resume-btn {
+    display: none;
+}
+#ongoing-status, #completed-status, #btn-group-1, #btn-group-2 {
+    text-align: center;
+}
+.btn-light {
+    width: 120px;
+    margin-right: 10px;
+    color: #2962ff !important;
+}
+.picker-opened > .picker-dialog {
+    top: 13rem;
+}
